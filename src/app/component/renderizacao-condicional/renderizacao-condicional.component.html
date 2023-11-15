@@ -1,1 +1,21 @@
-<p>renderizacao-condicional works!</p>
+<div class="separando_aulas">
+  <div *ngIf="usuarioLogado else UsuarioNaoLogado">
+
+    O usuario esta logado e se chama <strong>{{ nomeUsuario }}</strong>
+
+    <div *ngIf="nomeUsuario === 'Juan'">
+
+      Estou mostrando isso por que o usuario se chama {{ nomeUsuario }}
+
+    </div>
+
+  </div>
+
+  <ng-template #UsuarioNaoLogado>
+    <div>O usuario não esta logado</div>
+
+  </ng-template>
+
+
+
+</div>
