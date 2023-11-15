@@ -8,6 +8,7 @@ import { SegundoComponenteComponent } from './component/segundo-componente/segun
 import { NomeComponenteComponent } from './component/nome-componente/nome-componente.component';
 import { CardComponentComponent } from './component/card-component/card-component.component';
 import { DirectivesComponent } from './component/directives/directives.component';
+import { RenderizacaoCondicionalComponent } from './component/renderizacao-condicional/renderizacao-condicional.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DirectivesComponent } from './component/directives/directives.component
     SegundoComponenteComponent,
     NomeComponenteComponent,
     CardComponentComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    RenderizacaoCondicionalComponent
   ],
   imports: [
     BrowserModule,
