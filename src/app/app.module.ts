@@ -7,6 +7,7 @@ import { PrimeiroComponenteComponent } from './component/primeiro-componente/pri
 import { SegundoComponenteComponent } from './component/segundo-componente/segundo-componente.component';
 import { NomeComponenteComponent } from './component/nome-componente/nome-componente.component';
 import { CardComponentComponent } from './component/card-component/card-component.component';
+import { DirectivesComponent } from './component/directives/directives.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardComponentComponent } from './component/card-component/card-componen
     PrimeiroComponenteComponent,
     SegundoComponenteComponent,
     NomeComponenteComponent,
-    CardComponentComponent
+    CardComponentComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
