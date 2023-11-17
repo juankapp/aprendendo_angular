@@ -9,6 +9,7 @@ import { NomeComponenteComponent } from './component/nome-componente/nome-compon
 import { CardComponentComponent } from './component/card-component/card-component.component';
 import { DirectivesComponent } from './component/directives/directives.component';
 import { RenderizacaoCondicionalComponent } from './component/renderizacao-condicional/renderizacao-condicional.component';
+import { EventosComponent } from './component/eventos/eventos.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RenderizacaoCondicionalComponent } from './component/renderizacao-condi
     NomeComponenteComponent,
     CardComponentComponent,
     DirectivesComponent,
-    RenderizacaoCondicionalComponent
+    RenderizacaoCondicionalComponent,
+    EventosComponent
   ],
   imports: [
     BrowserModule,
