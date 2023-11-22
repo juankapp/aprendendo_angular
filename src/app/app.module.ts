@@ -12,6 +12,7 @@ import { RenderizacaoCondicionalComponent } from './component/renderizacao-condi
 import { EventosComponent } from './component/eventos/eventos.component';
 import { ComponentePaiComponent } from './component/componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './component/componente-filho/componente-filho.component';
+import { RenderizarListaComponent } from './component/renderizar-lista/renderizar-lista.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ComponenteFilhoComponent } from './component/componente-filho/component
     RenderizacaoCondicionalComponent,
     EventosComponent,
     ComponentePaiComponent,
-    ComponenteFilhoComponent
+    ComponenteFilhoComponent,
+    RenderizarListaComponent
   ],
   imports: [
     BrowserModule,
