@@ -10,6 +10,8 @@ import { CardComponentComponent } from './component/card-component/card-componen
 import { DirectivesComponent } from './component/directives/directives.component';
 import { RenderizacaoCondicionalComponent } from './component/renderizacao-condicional/renderizacao-condicional.component';
 import { EventosComponent } from './component/eventos/eventos.component';
+import { ComponentePaiComponent } from './component/componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './component/componente-filho/componente-filho.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { EventosComponent } from './component/eventos/eventos.component';
     CardComponentComponent,
     DirectivesComponent,
     RenderizacaoCondicionalComponent,
-    EventosComponent
+    EventosComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent
   ],
   imports: [
     BrowserModule,
