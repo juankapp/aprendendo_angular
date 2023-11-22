@@ -2,8 +2,15 @@
     <ul>
         <li *ngFor="let celular of Celulares">
             Marca: {{celular.Marca}} <br>
-            Modelo: {{celular.Modelo}}
+            Modelo: {{celular.Modelo}} <br>
+            <button (click)="InformacaoCelular(celular)">Exibir Informações</button>
             <hr>
+
         </li>
+        <div>
+            {{DetalhesCelular}}
+        </div>
     </ul>
+
+   
 </div>
