@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './eventos.component.html',
   styleUrl: './eventos.component.scss'
 })
-export class EventosComponent {
+export class EventosComponent  {
   mostrarMensagem: boolean = false;
 
   ControleMensagem(): void {

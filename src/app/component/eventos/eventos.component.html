@@ -1,15 +1,8 @@
 <div class="separando_aulas">
   <p *ngIf="mostrarMensagem">Exibindo mensagem</p>
 
-  <div *ngIf="mostrarMensagem == true">
-    <button (click)="ControleMensagem()" type="button" class="btn btn-primary">
-        Esconder Mensagem
-    </button>
-  </div>
+  <button (click)="ControleMensagem()" type="button" class="btn btn-primary">
+    {{mostrarMensagem ? 'Esconder Mensagem' : 'Mostrar Mensagem '}}
+</button>
 
-  <div *ngIf="mostrarMensagem == false">
-    <button (click)="ControleMensagem()" type="button" class="btn btn-primary">
-        Exibir Mensagem
-    </button>
-  </div>
 </div>
