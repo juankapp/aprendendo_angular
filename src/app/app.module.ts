@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +15,8 @@ import { EventosComponent } from './component/eventos/eventos.component';
 import { ComponentePaiComponent } from './component/componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './component/componente-filho/componente-filho.component';
 import { RenderizarListaComponent } from './component/renderizar-lista/renderizar-lista.component';
+import { FormularioComponent } from './component/formulario/formulario.component';
+
 
 @NgModule({
   declarations: [
@@ -26,11 +30,13 @@ import { RenderizarListaComponent } from './component/renderizar-lista/renderiza
     EventosComponent,
     ComponentePaiComponent,
     ComponenteFilhoComponent,
-    RenderizarListaComponent
+    RenderizarListaComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration()

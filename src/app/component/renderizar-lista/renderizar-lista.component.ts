@@ -34,7 +34,7 @@ export class RenderizarListaComponent {
   DetalhesCelular: string = ''
 
   InformacaoCelular(celular: Celulares) {
-    this.DetalhesCelular = `A marca do celular é ${celular.Marca} tem o modelo ${celular.Modelo} e foi fabricado em ${celular.ano_Fabricacao}`
+    this.DetalhesCelular = `A marca do celular é ${celular.Marca} tem o modelo ${celular.Modelo} e foi fabricado em ${celular.ano_Fabricacao} `
   }
 
 }
